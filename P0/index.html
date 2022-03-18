@@ -7,30 +7,32 @@
         <meta name="author" content="Nam Phan">
         <meta name="filename" content="index.html">
         <meta name="created date" content="03/16/2022">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="last modified" content="03/17/2022">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css\nav.css">
         <link rel="stylesheet" type="text/css" href="css\main.css">
+        <script type="text/javascript" src="js/animals.js"></script>
     </head>
     <body>
-        <!-- This is nav bar-->
+        <!-- This is nav bar element -->
         <nav>
             <div> Animals! </div>
-            <button>Lions</button>
-            <button>Elephants</button>
-            <button>Dolphins</button>
-            <button>Tuna</button>
+            <button type="button" onclick="lions()">Lions</button>
+            <button type="button" onclick="elephants()">Elephants</button>
+            <button type="button" onclick="dolphins()">Dolphins</button>
+            <button type="button" onclick="tuna()">Tuna</button>
         </nav>
 
-        <!-- This is the image of the animal-->
+        <!-- This is the image of the animal -->
         <displayImg>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/220px-Lion_waiting_in_Namibia.jpg">
         </displayImg>
 
-        <!-- This is the name of the animal-->
+        <!-- This is the name of the animal -->
         <displayName>Lion</displayName>
 
-        <!--div and table are block level elements-->
+        <!-- div and table are block level elements -->
+        <!-- Uses vertical table heads instead of horizontal ones -->
         <div style="display:flex;justify-content:center">
             <table>
                 <tr>
@@ -47,7 +49,7 @@
                 </tr>
             </table>
         </div>
+
+        
     </body>
-
-
 </html>

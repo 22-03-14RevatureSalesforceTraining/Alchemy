@@ -1,11 +1,15 @@
 /*Author: Nam Phan*/
 
+/*custom properties to custom tag: displayImage*/
+/* displayImg is a css selector, in this case, selecting a tags named "displayImg" */
 displayImg {
+    /* These are css declarations, key-value pairs*/
     display: flex;
     justify-content: center;
     margin: 50px;
 }
 
+/*custom properties to custom tag: displayName*/
 displayName {
     display: flex;
     justify-content: center;
