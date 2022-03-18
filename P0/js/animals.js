@@ -1,5 +1,5 @@
 /*  
-    input: no input
+    input: none
     function for the lions button, 
     stores information about lions and renders on the page
     using the update()
@@ -20,7 +20,7 @@ function lions(){
 }
 
 /*  
-    input: no input
+    input: none
     function for the elephants button, 
     stores information about elephants and renders on the page
     using the update()
@@ -40,7 +40,7 @@ function elephants(){
 }
 
 /*  
-    input: no input
+    input: none
     function for the dolphins button, 
     stores information about dolphins and renders on the page
     using the update()
@@ -60,7 +60,7 @@ function dolphins(){
 }
 
 /*  
-    input: no input
+    input: none
     function for the tuna button, 
     stores information about tuna and renders on the page
     using the update()
@@ -84,16 +84,16 @@ function update(info){
 
     document.querySelector("displayImg img").setAttribute("src", info.imageAddr);
 
-    /* changes the name */  
+    /* changes the animal name */  
     document.querySelector("displayName").innerHTML = info.name;
 
-    /* sets the link to the wikipedia site */ 
+    /* sets the table link to the wikipedia site */ 
     document.querySelector("table tr #tableLink").setAttribute("href", info.link);
     document.querySelector("table tr #tableLink").innerHTML = info.link;
 
-    /* habitat */
+    /* sets the table animal's habitat */
     document.querySelector("table tr #tableHabitat").innerHTML = info.habitats;
-    /* diet */
+    /* sets the table animal's diet */
     document.querySelector("table tr #tableEats").innerHTML = info.eats;
 }
 
