@@ -17,11 +17,16 @@
         <!-- This is nav bar element -->
         <nav>
             <div> Animals! </div>
-            <button type="button" onclick="lions()">Lions</button>
-            <button type="button" onclick="elephants()">Elephants</button>
-            <button type="button" onclick="dolphins()">Dolphins</button>
-            <button type="button" onclick="tuna()">Tuna</button>
+            <button id="lionsButton" type="button" onclick="lions()">Lions</button>
+            <button id="elephantsButton" type="button" onclick="elephants()">Elephants</button>
+            <button id="dolphinsButton" type="button" onclick="dolphins()">Dolphins</button>
+            <button id="tunaButton" type="button" onclick="tuna()">Tuna</button>
         </nav>
+
+        <!-- <script>
+            document.querySelector('nav button').addEventListener("mouseover", );
+
+        </script> -->
 
         <!-- This is the image of the animal -->
         <displayImg>
@@ -37,15 +42,16 @@
             <table>
                 <tr>
                     <th>Link</th>
-                    <td><a href="https://en.wikipedia.org/wiki/Lion">https://en.wikipedia.org/wiki/Lion</a></td>
+                    <td><a id="tableLink" href="https://en.wikipedia.org/wiki/Lion">https://en.wikipedia.org/wiki/Lion</a></td>
                 </tr>
                 <tr>
+                    <th >Habitat</th>
+                    <td id="tableHabitat">Africa</td>
+                </tr>
                     <th>Eats</th>
-                    <td>Meat</td>
-                </tr>
+                    <td id="tableEats" >Meat</td>
                 <tr>
-                    <th>Habitat</th>
-                    <td>Africa</td>
+
                 </tr>
             </table>
         </div>
