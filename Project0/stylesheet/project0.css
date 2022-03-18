@@ -1,0 +1,46 @@
+body{
+ margin: 0;   
+}
+
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.background-image-properties{
+    background-image: url("../Images/catBackground.jpg");
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    min-height: 10000;
+    min-width: 100%;
+}
+
+.title-container{
+    min-width: 100%;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.title-lettering{
+    font-size: 100px;
+    color: #fff;
+
+}
+
+.subtitle{
+    font-size: 50px;
+    color: #fff;
+}
+
+
+#content{
+    background-color: #fff;
+}
