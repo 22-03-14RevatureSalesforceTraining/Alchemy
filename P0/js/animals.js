@@ -29,7 +29,7 @@ function elephants(){
 }
 
 function dolphins(){
-    //console.og("Dolphins!");
+    //console.log("Dolphins!");
 
     let info = {
         name: "Dolphins",
@@ -43,7 +43,7 @@ function dolphins(){
 }
 
 function tuna(){
-    // console.log("Tuna!");
+    //console.log("Tuna!");
 
     let info = {
         name: "Tuna",
