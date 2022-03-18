@@ -1,7 +1,12 @@
-
+/*  
+    input: no input
+    function for the lions button, 
+    stores information about lions and renders on the page
+    using the update()
+*/
 function lions(){
     //console.log("Lions!");
-
+    /* storing information in a json object for readability and adaptability*/
     let info = {
         name: "Lions",
         imageAddr: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/220px-Lion_waiting_in_Namibia.jpg",
@@ -14,6 +19,12 @@ function lions(){
 
 }
 
+/*  
+    input: no input
+    function for the elephants button, 
+    stores information about elephants and renders on the page
+    using the update()
+*/
 function elephants(){
     //console.log("Elephants!");
     let info = {
@@ -28,6 +39,12 @@ function elephants(){
     
 }
 
+/*  
+    input: no input
+    function for the dolphins button, 
+    stores information about dolphins and renders on the page
+    using the update()
+*/
 function dolphins(){
     //console.log("Dolphins!");
 
@@ -42,6 +59,12 @@ function dolphins(){
     update(info);
 }
 
+/*  
+    input: no input
+    function for the tuna button, 
+    stores information about tuna and renders on the page
+    using the update()
+*/
 function tuna(){
     //console.log("Tuna!");
 
@@ -56,7 +79,7 @@ function tuna(){
     update(info);
 }
 
-/* helper function that takes in a json and updates the webpage */
+/* helper function that takes in a json and updates webpage */
 function update(info){
 
     document.querySelector("displayImg img").setAttribute("src", info.imageAddr);
