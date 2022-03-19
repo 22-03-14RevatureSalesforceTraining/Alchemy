@@ -1,3 +1,9 @@
+/**
+ * Author: Nam Phan
+ * Purpose: This api/module handles the information storage
+ * and rerendering for each of the buttons on the main html page.
+ */
+
 /*  
     input: none
     function for the lions button, 
