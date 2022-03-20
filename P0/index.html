@@ -25,9 +25,9 @@
         </nav>
     
         <!-- Preview Image here -->
-        <div>
+        <span>
             <img id="previewImage" src="" hidden> </img>
-        </div>
+        </span>
         
         <!-- internal js script for to event listen for mouseovers of the buttons, and show picture preview -->
         <script>
@@ -36,21 +36,19 @@
             document.querySelector('nav #dolphinsButton').addEventListener("mouseover", hoverPicDolphin);
             document.querySelector('nav #tunaButton').addEventListener("mouseover", hoverPicTuna);
 
-
+            //this hides the preview button via eventlistener if mouseover is not in the (nav button) element
+            //uses capture instead of bubbling to have display listeners called first, then hide listener. A hackaround, but works, and demos my knowledge of event propagation. 
             document.querySelector(':not(nav button)').addEventListener("mouseover", hidePrePicture, true);
-            
-
         </script>
 
-        <!-- inline java script for mouse over picture here -->
-        <!-- <script>
-            document.querySelector('nav button').addEventListener("mouseover", );
-        </script> -->
-
+        <!-- figure and figcaption tag for screen reader technologies! -->
         <!-- This is the image of the animal, the img tag is a self closing tag -->
-        <displayImg>
-            <img src=""></img>
-        </displayImg>
+        <span>
+            <figure id="animalImageFigure">
+                <img id="animalImage" src=""></img>
+                <figcaption></figcaption>
+            </figure>
+        </span>
 
         <!-- This is the name of the animal -->
         <h2 id="displayName"></h2>

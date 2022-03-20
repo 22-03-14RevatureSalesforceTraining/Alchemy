@@ -88,7 +88,7 @@ function tuna(){
 /* helper function that takes in a json and updates webpage */
 function update(info){
 
-    document.querySelector("displayImg img").setAttribute("src", info.imageAddr);
+    document.querySelector("figure #animalImage").setAttribute("src", info.imageAddr);
 
     /* changes the animal name */  
     document.querySelector("#displayName").innerHTML = info.name;
