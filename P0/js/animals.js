@@ -101,6 +101,8 @@ function update(info){
     document.querySelector("table tr #tableHabitat").innerHTML = info.habitats;
     /* sets the table animal's diet */
     document.querySelector("table tr #tableEats").innerHTML = info.eats;
+
+    document.querySelector("#mainTable").removeAttribute("style");
 }
 
 //export { lions, elephants, dophins, tuna };

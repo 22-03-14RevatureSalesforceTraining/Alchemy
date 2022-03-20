@@ -30,7 +30,8 @@
     <body>
         <!-- Preview Image here -->
         <span>
-            <img id="previewImage" src="" hidden> </img>
+            <img id="previewImage" style="visibility:hidden" height="100px" width="100px">
+            </img>
         </span>
         
         <!-- internal js script for to event listen for mouseovers of the buttons, and show picture preview -->
@@ -41,7 +42,8 @@
             document.querySelector('nav #tunaButton').addEventListener("mouseover", hoverPicTuna);
 
             //this hides the preview button via eventlistener if mouseover is not in the (nav button) element
-            //uses capture instead of bubbling to have display listeners called first, then hide listener. A hackaround, but works, and demos my knowledge of event propagation. 
+            //uses capture instead of bubbling to have display listeners called first, then the hide listener.
+            //A hackaround, but works, and demos my knowledge of event propagation. 
             document.querySelector(':not(nav button)').addEventListener("mouseover", hidePrePicture, true);
         </script>
 
@@ -59,8 +61,8 @@
 
         <!-- div and table are block level elements -->
         <!-- Uses vertical table heads instead of horizontal ones -->
-        <div style="display:flex;justify-content:center">
-            <table id="mainTable">
+        <div style="display:flex; justify-content:center">
+            <table id="mainTable" style="visibility:hidden">
                 <tr>
                     <th>Link</th>
                     <td><a id="tableLink" href=""></a></td>

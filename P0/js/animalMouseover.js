@@ -10,7 +10,7 @@ runs the showPrePicture function to unhide preview pictures
 function hoverPicLion(){
     let info = {
         name: "lion",
-        preImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/220px-Lion_waiting_in_Namibia.jpg",
+        preImageLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/220px-Lion_waiting_in_Namibia.jpg",
     }
 
     showPrePicture(info);
@@ -19,7 +19,7 @@ function hoverPicLion(){
 function hoverPicElephant(){
     let info = {
         name: "elephant",
-        preImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Elephant_Diversity.jpg/220px-Elephant_Diversity.jpg",
+        preImageLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Elephant_Diversity.jpg/220px-Elephant_Diversity.jpg",
     }
 
     showPrePicture(info);
@@ -28,7 +28,7 @@ function hoverPicElephant(){
 function hoverPicDolphin(){
     let info = {
         name: "dolphin",
-        preImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Dolphintursiops.jpg/350px-Dolphintursiops.jpg",
+        preImageLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Dolphintursiops.jpg/350px-Dolphintursiops.jpg",
     }
     
     showPrePicture(info);
@@ -37,7 +37,7 @@ function hoverPicDolphin(){
 function hoverPicTuna(){
     let info = {
         name: "tuna",
-        preImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tuna_assortment.png/220px-Tuna_assortment.png",
+        preImageLink: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tuna_assortment.png/220px-Tuna_assortment.png",
     }
 
     showPrePicture(info);
@@ -50,17 +50,16 @@ function to hide the preview picutre of id=previewImage
 */
 function hidePrePicture(){
     // console.log("hiding");
-    document.querySelector("#previewImage").setAttribute("hidden", "hidden");
+    document.querySelector("#previewImage").style.visibility = "hidden";
 }
 
 /*
-
 input: a json object with the picutre image
 helper function to display/unhide preivew picture, elements with id=preview*/
 function showPrePicture(info){
-
-    document.querySelector("#previewImage").removeAttribute("hidden");
-    document.querySelector("#previewImage").setAttribute("src", info.preImage);
+    document.querySelector("#previewImage").setAttribute("src", info.preImageLink);
     document.querySelector("#previewImage").setAttribute("alt", info.name);
+    
+    document.querySelector("#previewImage").style.visibility = "visible";
 }
 
