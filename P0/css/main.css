@@ -26,3 +26,9 @@ th, td {
     padding: 10px;
     border:1px solid black;
 }
+
+div #previewImage {
+    height: 100px;
+    width: 100px;
+
+}

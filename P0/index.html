@@ -12,6 +12,7 @@
         <link rel="stylesheet" type="text/css" href="css\nav.css">
         <link rel="stylesheet" type="text/css" href="css\main.css">
         <script type="text/javascript" src="js/animals.js"></script>
+        <script type="text/javascript" src="js/animalMouseover.js"></script>
     </head>
     <body>
         <!-- This is nav bar element -->
@@ -22,15 +23,32 @@
             <button id="dolphinsButton" type="button" onclick="dolphins()">Dolphins</button>
             <button id="tunaButton" type="button" onclick="tuna()">Tuna</button>
         </nav>
+    
+        <div>
+            <img id="previewImage" src="" hidden> </img>
+        </div>
+        
+        <!-- internal js script for to event listen for mouseovers of the buttons, and show picture preview -->
+        <script>
+            document.querySelector('nav #lionsButton').addEventListener("mouseover", hoverPicLion);
+            document.querySelector('nav #elephantsButton').addEventListener("mouseover", hoverPicElephant);
+            document.querySelector('nav #dolphinsButton').addEventListener("mouseover", hoverPicDolphin);
+            document.querySelector('nav #tunaButton').addEventListener("mouseover", hoverPicTuna);
+
+
+            document.querySelector(':not(nav button)').addEventListener("mouseover", hidePrePicture, true);
+            
+
+        </script>
 
         <!-- inline java script for mouse over picture here -->
         <!-- <script>
             document.querySelector('nav button').addEventListener("mouseover", );
         </script> -->
 
-        <!-- This is the image of the animal -->
+        <!-- This is the image of the animal, the img tag is a self closing tag -->
         <displayImg>
-            <img src="">
+            <img src=""></img>
         </displayImg>
 
         <!-- This is the name of the animal -->
