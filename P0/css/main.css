@@ -10,25 +10,27 @@ displayImg {
 }
 
 /*custom properties to custom tag: displayName*/
-displayName {
+#displayName {
     display: flex;
     justify-content: center;
     margin: 20px;
 }
 
-table{
+/* style for the main table */
+#mainTable {
     display: table;
     border:1px solid black;
 }
 
-th, td {
+/* style for the header and data of the main table. */
+#mainTable tr th, #mainTable tr td {
     text-align: left;
     padding: 10px;
     border:1px solid black;
 }
 
-div #previewImage {
+/* style for the preview image */
+#previewImage {
     height: 100px;
     width: 100px;
-
 }

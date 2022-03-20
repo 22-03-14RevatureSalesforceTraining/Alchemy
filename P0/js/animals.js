@@ -14,7 +14,7 @@ function lions(){
     //console.log("Lions!");
     /* storing information in a json object for readability and adaptability*/
     let info = {
-        name: "Lions",
+        name: "Lion",
         imageAddr: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/220px-Lion_waiting_in_Namibia.jpg",
         link: "https://en.wikipedia.org/wiki/Lion",
         eats: ["blue wildebeest"," plains zebra", "African buffalo", "gemsbok", "giraffe"],
@@ -55,7 +55,7 @@ function dolphins(){
     //console.log("Dolphins!");
 
     let info = {
-        name: "Dolphins",
+        name: "Dolphin",
         imageAddr: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Dolphintursiops.jpg/350px-Dolphintursiops.jpg",
         link: "https://en.wikipedia.org/wiki/Dolphin",
         eats: ["fish"],
@@ -91,7 +91,7 @@ function update(info){
     document.querySelector("displayImg img").setAttribute("src", info.imageAddr);
 
     /* changes the animal name */  
-    document.querySelector("displayName").innerHTML = info.name;
+    document.querySelector("#displayName").innerHTML = info.name;
 
     /* sets the table link to the wikipedia site */ 
     document.querySelector("table tr #tableLink").setAttribute("href", info.link);

@@ -18,12 +18,13 @@
         <!-- This is nav bar element -->
         <nav>
             <div> Animals! </div>
-            <button id="lionsButton" type="button" onclick="lions()">Lions</button>
-            <button id="elephantsButton" type="button" onclick="elephants()">Elephants</button>
-            <button id="dolphinsButton" type="button" onclick="dolphins()">Dolphins</button>
+            <button id="lionsButton" type="button" onclick="lions()">Lion</button>
+            <button id="elephantsButton" type="button" onclick="elephants()">Elephant</button>
+            <button id="dolphinsButton" type="button" onclick="dolphins()">Dolphin</button>
             <button id="tunaButton" type="button" onclick="tuna()">Tuna</button>
         </nav>
     
+        <!-- Preview Image here -->
         <div>
             <img id="previewImage" src="" hidden> </img>
         </div>
@@ -52,12 +53,12 @@
         </displayImg>
 
         <!-- This is the name of the animal -->
-        <displayName></displayName>
+        <h2 id="displayName"></h2>
 
         <!-- div and table are block level elements -->
         <!-- Uses vertical table heads instead of horizontal ones -->
         <div style="display:flex;justify-content:center">
-            <table>
+            <table id="mainTable">
                 <tr>
                     <th>Link</th>
                     <td><a id="tableLink" href=""></a></td>
