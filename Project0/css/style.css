@@ -1,0 +1,81 @@
+/* Author: Johnny Tran */
+
+/* Custom button properties */
+.buttonLinks {
+	background-color: rgb(26, 188, 156);
+	border: none;
+	border-radius: 8px;
+	color: white;
+	padding: 15px 30px;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+/* Change to darker button colors when active */
+.buttonLinks.active {
+	background-color: rgb(17, 128, 106);
+}
+
+/* div element content is margined 20px from top and left */
+.buttonPage {
+	margin: 20px;
+}
+
+/* Table cell color for days of current month */
+.daysCurrent {
+	background: rgba(249, 255, 248, 0.8);
+}
+
+/* Table cell color for days of previous&next month */
+.daysOther {
+	background: rgba(249, 249, 249, 0.8);
+	color: #878787;
+}
+
+/* Custom properties of header cell displaying current month and year */
+.month {
+	height :150px;
+	background: rgba(26, 188, 156, 0.8);
+	color: white;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+/* Table cell color for names of the days */
+.weekdays {
+	background: rgba(221, 221, 221, 0.8);
+}
+
+/* Table cell color of featured date with no opacity */
+.today {
+	background-color: rgba(26, 188, 156);
+	color: white;
+}
+
+/* Flex display to evenly space buttons between empty areas */
+#buttonList {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* Custom properties for table and contained text */
+table {
+	border: 1px solid #000000;
+	width: 70%;
+	font-family: Verdana, sans-serif;
+	text-align: center;
+    background: url("https://c.tadst.com/gfx/1200x630/3-march-daffodils.jpg") repeat;
+}
+
+/* Custom properties for each table cell */
+td {
+	border: 1px solid #999999;
+	width: 14.286%;
+}
+
+/* Displays unordered list into 3 even columns */
+ul {
+	column-count: 3;
+}
