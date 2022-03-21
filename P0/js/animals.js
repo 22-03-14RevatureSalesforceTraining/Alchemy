@@ -144,12 +144,12 @@ function update(info){
     output: none
     Calls wikipedia's API and fetches a json object of the animal's webpage.
     Fills in the info json object's pageID and description properties.
-
 */
 async function queryWiki(info){
 
-    console.log("queryLink: " + info.queryLink);
+    //console.log("queryLink: " + info.queryLink);
 
+    //add in some error checking here.
     let res = await fetch(info.queryLink);
     let data = await res.json();
 
