@@ -15,7 +15,7 @@
         <script type="text/javascript" src="js/animals.js"></script>
         <script type="text/javascript" src="js/animalMouseover.js"></script>
     </head>
-    
+
     <body>
         <!-- header tag contains title, and navigation -->
         <header>
@@ -30,8 +30,7 @@
         </header>
         <!-- Preview Image here -->
         <span>
-            <img id="previewImage" style="visibility:hidden" height="100px" width="100px">
-            </img>
+            <img id="previewImage" style="visibility:hidden" height="100px" width="100px"></img>
         </span>
         
         <!-- internal js script for to event listen for mouseovers of the buttons, and show picture preview -->
@@ -64,6 +63,10 @@
         <div style="display:flex; justify-content:center">
             <table id="mainTable" style="visibility:hidden">
                 <tr>
+                    <th>PageID</th>
+                    <td id="tablePageID"></td>
+                </tr>
+                <tr>
                     <th>Link</th>
                     <td><a id="tableLink" href=""></a></td>
                 </tr>
@@ -74,6 +77,10 @@
                 <tr>
                     <th>Eats</th>
                     <td id="tableEats"></td>
+                </tr>
+                <tr>
+                    <th>Description</th>
+                    <td id="tableDes"></td>
                 </tr>
             </table>
         </div>
