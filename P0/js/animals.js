@@ -23,6 +23,7 @@ async function lions(){
         habitats: ["Africa"],
     }
 
+    //add in some error checking to awaits
     await queryWiki(info);
     update(info);
 
@@ -108,7 +109,7 @@ function update(info){
     /* sets the table link to the wikipedia site */ 
     document.querySelector("table tr #tableLink").setAttribute("href", info.link);
 
-    /* sets the links to open in a new tab, also the  */
+    /* sets the links to open in a new tab */
     document.querySelector("table tr #tableLink").setAttribute("target", "_blank");
     /* sets the relationship between the page and the linked URL to prevent "tabnabbing phising" */
     document.querySelector("table tr #tableLink").setAttribute("rel", "noreferrer noopener");
@@ -121,14 +122,14 @@ function update(info){
     /* sets the table animal's diet */
     document.querySelector("table tr #tableEats").innerHTML = info.eats;
 
-    //removes the style: visibility:hidden attribute from id=mainTable
-    document.querySelector("#mainTable").removeAttribute("style");
-
-    //updates the page id for the animal's wiki article
+    //sets the page id for the animal's wiki article
     document.querySelector("table tr #tablePageID").innerHTML = info.pageID;
 
-    //updates the discripton field of the animal from the wiki article
+    //sets the description field of the animal from the wiki article
     document.querySelector("table tr #tableDes").innerHTML = info.extract;
+
+    //removes the style: visibility:hidden attribute from id=mainTable
+    document.querySelector("#mainTable").removeAttribute("style");
 }
 
 /* 
