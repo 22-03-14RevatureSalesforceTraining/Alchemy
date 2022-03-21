@@ -6,7 +6,7 @@
 
 /*  
     input: none
-    function for the lions button, 
+    function for the lion button, 
     stores information about lions and renders on the page using the update()
 */
 async function lions(){
@@ -31,7 +31,7 @@ async function lions(){
 
 /*  
     input: none
-    function for the elephants button, 
+    function for the elephant button, 
     stores information about elephants and renders on the page using the update()
 */
 async function elephants(){

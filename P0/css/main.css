@@ -1,7 +1,7 @@
 /*Author: Nam Phan*/
 
-/*custom properties to custom tag: displayImage*/
-/* figure animalImage is a css selector, in this case, selecting the element with id="animalImageFigure" */
+/*custom properties to id: animalImageFigure*/
+/* figure animalImageFigure is a css selector, in this case, selecting the element with id="animalImageFigure"*/
 #animalImageFigure {
     /* These are css declarations, key-value pairs*/
     display: flex;
@@ -9,7 +9,7 @@
     margin: 50px;
 }
 
-/*custom properties to custom tag: displayName*/
+/*custom properties to id: displayName*/
 #displayName {
     display: flex;
     justify-content: center;
