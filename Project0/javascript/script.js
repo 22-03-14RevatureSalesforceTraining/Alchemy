@@ -28,13 +28,6 @@ function openPage(evt, pageName) {
 	evt.currentTarget.className += " active";
 }
 
-/* jokeLink is called by ID on addEventListener
-   which opens onto a new tab the attached Youtube link */
-function jokeLink() {
-	window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
-	// console.log("Opening joke link");
-}
-
 /* object 'systemTime' created using system date and time,
    then displays system D&T text line
    where element 'Time' is located */

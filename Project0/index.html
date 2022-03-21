@@ -5,9 +5,10 @@
 	<meta name="created date" content="03/17/2022">
 	<meta name="last modified" content="03/20/2022">
 	
-	<!-- Import CSS and JS files -->
+	<!-- Import CSS, JS, and External Youtube API files -->
 	<link rel="stylesheet" href="css/style.css">
 	<script type="text/javascript" src="javascript/script.js"></script>
+	<script type="text/javascript" src="javascript/youtubeAPI.js"></script>
 	
 	<!-- Favicon and page title is displayed in browser tab -->
 	<link rel="shortcut icon" href="https://favicon-generator.org/favicon-generator/htdocs/favicons/2015-01-17/e570b4493a19d0b6e1116fe8485dd3a3.ico">
@@ -95,11 +96,11 @@
 	<div id="buttonList">
 		<button class="buttonLinks" onclick="openPage(event, 'Events')" id="defaultOpen">Events on<br>March 21st, 2022</button>
 		<button class="buttonLinks" onclick="openPage(event, 'Time');showTime();">What is my<br>current time?</button>
-		<button class="buttonLinks" id="jokeButton">Do NOT press<br>this button</button>
+		<button class="buttonLinks" onclick="openPage(event, 'Warning')" id="jokeButton">Do NOT press<br>this button</button>
 	</div>
 	<br>
 	
-	<!-- Contents of 2 pages by ID to be switched between -->
+	<!-- Contents of 3 pages by ID to be switched between -->
 	<div id="Events" class="buttonPage">
 		<ul>
 			<li>Salesforce - SDLC 21</li>
@@ -121,12 +122,14 @@
 		</p>
 	</div>
 	<div id="Time" class="buttonPage"></div>
+	<div id="Warning" class="buttonPage">
+		<p id="vidPlayer"></p>
+	</div>
 	
-	<!-- Inline JS for active page and eventListener
+	<!-- Inline JS for initial active page
 		 (does not work properly in Internal nor External) -->
 	<script>
 		document.getElementById("defaultOpen").click();
-		document.getElementById("jokeButton").addEventListener("click", jokeLink);
 	</script>
 	
 </body>
