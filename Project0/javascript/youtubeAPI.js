@@ -40,7 +40,12 @@ function onYouTubeIframeAPIReady() {
 function onPlayerReady(event) {
 	var playButton = document.getElementById("jokeButton");
 	playButton.addEventListener("click", function () {
-		player.playVideo();
+		try {
+			player.playVideo();
+		}
+		catch(err) {
+			console.log(err.message);
+		}
 		// console.log("Video has started playing");
 	});
 }
