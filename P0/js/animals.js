@@ -10,8 +10,7 @@
     stores information about lions and renders on the page using the update()
 */
 async function lions(){
-    //console.log("Lions!");
-    /* storing information in a json object for readability and adaptability*/
+    //storing information in a json object for readability and adaptability
     var info = {
         pageID: "",
         extract:"",
@@ -23,8 +22,13 @@ async function lions(){
         habitats: ["Africa"],
     }
 
-    //add in some error checking to awaits
-    await queryWiki(info);
+    //tries to fetch data from wikipedia with error catching.
+    try {
+        await queryWiki(info);
+    } catch (err) {
+        console.log(err);
+    }
+
     update(info);
 
 }
@@ -35,7 +39,6 @@ async function lions(){
     stores information about elephants and renders on the page using the update()
 */
 async function elephants(){
-    //console.log("Elephants!");
     let info = {
         pageID: "",
         extract:"",
@@ -47,7 +50,11 @@ async function elephants(){
         habitats: ["Africa", "Asia"],
     }
 
-    await queryWiki(info);
+    try {
+        await queryWiki(info);
+    } catch (err) {
+        console.log(err);
+    }
     update(info);
     
 }
@@ -58,8 +65,6 @@ async function elephants(){
     stores information about dolphins and renders on the page using the update()
 */
 async function dolphins(){
-    //console.log("Dolphins!");
-
     let info = {
         pageID: "",
         extract:"",
@@ -71,7 +76,11 @@ async function dolphins(){
         habitats: ["Ocean"],
     }
 
-    await queryWiki(info);
+    try {
+        await queryWiki(info);
+    } catch (err) {
+        console.log(err);
+    }
     update(info);
 }
 
@@ -81,8 +90,6 @@ async function dolphins(){
     stores information about tuna and renders on the page using the update()
 */
 async function tuna(){
-    //console.log("Tuna!");
-
     let info = {
         pageID: "",
         extract:"",
@@ -94,32 +101,39 @@ async function tuna(){
         habitats: ["Atlantic", "Pacific"],
     }
 
-    await queryWiki(info);
+    try {
+        await queryWiki(info);
+    } catch (err) {
+        console.log(err);
+    }
+
     update(info);
 }
 
-/* helper function that takes in a json and updates webpage */
+/*  input: javascript object
+    helper function that takes in a json and updates webpage */
 function update(info){
 
     document.querySelector("figure #animalImage").setAttribute("src", info.imageAddr);
+    document.querySelector("figure #animalImage").setAttribute("alt", info.name);
 
-    /* changes the animal name */  
+    //changes the animal name
     document.querySelector("#displayName").innerHTML = info.name;
 
-    /* sets the table link to the wikipedia site */ 
+    //sets the table link to the wikipedia site
     document.querySelector("table tr #tableLink").setAttribute("href", info.link);
 
-    /* sets the links to open in a new tab */
+    //sets the links to open in a new tab
     document.querySelector("table tr #tableLink").setAttribute("target", "_blank");
-    /* sets the relationship between the page and the linked URL to prevent "tabnabbing phising" */
+    //sets the relationship between the page and the linked URL to prevent "tabnabbing phising"
     document.querySelector("table tr #tableLink").setAttribute("rel", "noreferrer noopener");
     
-    /* sets the text of the link equal to the weblink */
+    //sets the text of the link equal to the weblink
     document.querySelector("table tr #tableLink").innerHTML = info.link;
 
-    /* sets the table animal's habitat */
+    //sets the table animal's habitat
     document.querySelector("table tr #tableHabitat").innerHTML = info.habitats;
-    /* sets the table animal's diet */
+    //sets the table animal's diet
     document.querySelector("table tr #tableEats").innerHTML = info.eats;
 
     //sets the page id for the animal's wiki article
@@ -133,19 +147,27 @@ function update(info){
 }
 
 /* 
-    input: json object
+    input: javascript object
     output: none
     Calls wikipedia's API and fetches a json object of the animal's webpage.
     Fills in the info json object's pageID and description properties.
 */
 async function queryWiki(info){
+    //fetches data from wikipedia with a try catch
+    try {
+        let res = await fetch(info.queryLink);
+        try {
+            let data = await res.json();
+            info.pageID = data.query.pages[0].pageid;
+            info.extract = data.query.pages[0].extract;
+        } catch (err) {
+            console.log(err)
+        }
+    } catch (err) {
+        console.log(err)
+    }
+    
 
-    //console.log("queryLink: " + info.queryLink);
+    
 
-    //add in some error checking here.
-    let res = await fetch(info.queryLink);
-    let data = await res.json();
-
-    info.pageID = data.query.pages[0].pageid;
-    info.extract = data.query.pages[0].extract;
 }
