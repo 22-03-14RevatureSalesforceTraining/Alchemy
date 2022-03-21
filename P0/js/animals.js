@@ -7,8 +7,7 @@
 /*  
     input: none
     function for the lions button, 
-    stores information about lions and renders on the page
-    using the update()
+    stores information about lions and renders on the page using the update()
 */
 async function lions(){
     //console.log("Lions!");
@@ -25,7 +24,6 @@ async function lions(){
     }
 
     await queryWiki(info);
-    // console.log(info);
     update(info);
 
 }
@@ -33,8 +31,7 @@ async function lions(){
 /*  
     input: none
     function for the elephants button, 
-    stores information about elephants and renders on the page
-    using the update()
+    stores information about elephants and renders on the page using the update()
 */
 async function elephants(){
     //console.log("Elephants!");
@@ -50,7 +47,6 @@ async function elephants(){
     }
 
     await queryWiki(info);
-    // console.log(info);
     update(info);
     
 }
@@ -58,8 +54,7 @@ async function elephants(){
 /*  
     input: none
     function for the dolphins button, 
-    stores information about dolphins and renders on the page
-    using the update()
+    stores information about dolphins and renders on the page using the update()
 */
 async function dolphins(){
     //console.log("Dolphins!");
@@ -76,15 +71,13 @@ async function dolphins(){
     }
 
     await queryWiki(info);
-    // console.log(info);
     update(info);
 }
 
 /*  
     input: none
     function for the tuna button, 
-    stores information about tuna and renders on the page
-    using the update()
+    stores information about tuna and renders on the page using the update()
 */
 async function tuna(){
     //console.log("Tuna!");
@@ -99,7 +92,6 @@ async function tuna(){
         eats: ["herring", "bluefish", "mackerel"],
         habitats: ["Atlantic", "Pacific"],
     }
-
 
     await queryWiki(info);
     update(info);
