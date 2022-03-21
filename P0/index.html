@@ -40,9 +40,11 @@
             document.querySelector('nav #dolphinsButton').addEventListener("mouseover", hoverPicDolphin);
             document.querySelector('nav #tunaButton').addEventListener("mouseover", hoverPicTuna);
 
-            //this hides the preview button via eventlistener if mouseover is not in the (nav button) element
-            //uses capture instead of bubbling to have display listeners called first, then the hide listener.
-            //A hackaround, but works, and demos my knowledge of event propagation. 
+            /*
+                This hides the preview button via eventlistener if mouseover is not in the (nav button) element
+                Uses capture instead of bubbling to have display listeners called first, then the hide listener.
+                A hack-around, but works, and demos my knowledge of event propagation: Capturing -> Target -> Bubbling
+            */
             document.querySelector(':not(nav button)').addEventListener("mouseover", hidePrePicture, true);
         </script>
 
