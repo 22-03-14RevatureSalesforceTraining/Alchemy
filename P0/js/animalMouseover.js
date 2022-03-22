@@ -2,10 +2,10 @@
 /* Houses the function to activate for mouseovers */
 
 /*
-input: none
-Output: none
-Stores the link info in a json for readability
-runs the showPrePicture function to unhide preview pictures
+    input: none
+    Output: none
+    Stores the link info in a json for readability
+    runs the showPrePicture function to unhide preview pictures
 */
 function hoverPicLion(){
     let info = {
@@ -44,9 +44,9 @@ function hoverPicTuna(){
 }
 
 /* 
-input: none
-output: none
-function to hide the preview picutre of id=previewImage
+    input: none
+    output: none
+    function to hide the preview picutre of id=previewImage
 */
 function hidePrePicture(){
     // console.log("hiding");

@@ -9,6 +9,7 @@
     function for the lion button, 
     stores information about lions and renders on the page using the update()
 */
+
 async function lions(){
     //storing information in a json object for readability and adaptability
     var info = {
@@ -30,7 +31,6 @@ async function lions(){
     }
 
     update(info);
-
 }
 
 /*  
@@ -111,7 +111,8 @@ async function tuna(){
 }
 
 /*  input: javascript object
-    helper function that takes in a json and updates webpage */
+    helper function that takes in a json and updates webpage 
+*/
 function update(info){
 
     document.querySelector("figure #animalImage").setAttribute("src", info.imageAddr);
