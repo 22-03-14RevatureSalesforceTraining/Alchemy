@@ -1,6 +1,6 @@
 /**
  * Author: Nam Phan
- * Purpose: This api/module handles the information storage
+ * Purpose: This module handles the information storage
  * and rerendering for each of the buttons on the main html page.
  */
 
@@ -11,7 +11,7 @@
 */
 
 async function lions(){
-    //storing information in a json object for readability and adaptability
+    //storing information in a js object for readability and adaptability
     var info = {
         pageID: "",
         extract:"",

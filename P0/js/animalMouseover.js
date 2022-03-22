@@ -4,7 +4,7 @@
 /*
     input: none
     Output: none
-    Stores the link info in a json for readability
+    Stores the link info in a js obj for readability
     runs the showPrePicture function to unhide preview pictures
 */
 function hoverPicLion(){
@@ -54,7 +54,7 @@ function hidePrePicture(){
 }
 
 /*
-input: a json object with the picutre image
+input: a js obj with the picutre image
 helper function to display/unhide preivew picture, elements with id=preview*/
 function showPrePicture(info){
     document.querySelector("#previewImage").setAttribute("src", info.preImageLink);
