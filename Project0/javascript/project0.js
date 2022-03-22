@@ -1,8 +1,7 @@
-function myfunc(){
-    const test = document.getElementById("test");
+//function that turns the background of kinder black
+function eventTest(){
+    const test = document.getElementById("blackKinder");
     test.style.backgroundColor = "black";
-
-    setTimeout(myfunc, 1000);
 
 }
 
