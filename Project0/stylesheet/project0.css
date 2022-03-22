@@ -5,7 +5,7 @@
     background-size: cover;
 }
 
-.background-image-properties {
+.backgroundImageProperties {
     background-image: url("../Images/catBackground.jpg");
 
     top: 0;
@@ -16,7 +16,7 @@
     z-index: -1;
 }
 
-.title-container {
+.titleContainer {
     min-width: 100%;
     min-height: 800px;
 
@@ -27,7 +27,7 @@
     align-items: center;
 }
 
-.title-lettering {
+.titleLettering {
     font-size: 100px;
     color: #fff;
 
@@ -62,14 +62,14 @@
 }
 
 
-.pricing-squares {
+.pricingSquares {
     border: 1px solid;
     padding: 30px;
     margin: 5%;
 
 }
 
-.footer-icons {
+.footerIcons {
     min-height: 500px;
     min-width: 100%;
     display: flex;
@@ -121,7 +121,7 @@ ul {
     margin-top: 15%;
 }
 
-#content-section {
+#contentSection {
     border-top: 3px solid;
     background-color: rgb(199, 133, 133);
 

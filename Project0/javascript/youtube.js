@@ -38,6 +38,7 @@
      event.target.playVideo();
  }
 
+ //When the video is stopped by the player
  function stopVideo() {
      player.stopVideo();
  }
