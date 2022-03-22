@@ -10,14 +10,80 @@
          web page that connects to an external API.">
 
          <!--Updated each time I made a change or added features-->
-         <meta name = "Last Modified" content = "2022-03-21 @ 2:50pm PT">
+         <meta name = "Last Modified" content = "2022-03-21 @ 1:50pm PT">
+
+         <!--Important for CSS features for External Use-->
+         <link rel = "stylesheet" href = "styleSheet.css">
 
         </head>
 
         <!--All Visible Elements will be in this tag (body)-->
         <body>
-            <!--Image of self fixed in right corner, need CSS to format & style (see stylesheet.css)-->
-            <img class = "portfolioImg" src = "img/Portfolio2021.JPG" alt = "Sorry, ERROR displaying ->
-             Please check img tag.">
+            <h1>Hello!</h1>
+
+            <!--First section on webpage, side-by side-->
+            <div class = "intro-box">
+
+                 <!--Profile picture in right corner, need CSS to format & style (see stylesheet.css)-->
+                <img class = "portfolioImg"  src = "img/Portfolio2021.JPG" alt = "Sorry, ERROR displaying -> Please check img tag.">
+                
+                
+                <div id = "intro-paragraph">
+                    <!--Short Intro Paragraph that will lead to a hyperlink to my LinkedIN, need to format with CSS
+                    (same line as pic with flexbox)-->
+                    <p>
+                        My name is Daniel Alcala. I am a graduate of Computer Game Science with a concentration in 
+                        Software Engineering. I am consistently recognized for quality software and game design techniques.
+                        I possess the ability to master new technology along with innovation to new and existing projects.
+                        I am also equally successful in both collaborative and self-directed settings. If you would like to
+                        learn more -->
+    
+                        <!--Link leading to Daniel Alcala LinkedIN-->
+                        <a href = "https://www.linkedin.com/in/daniel-luis-alcala-7bb23222a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BURdF%2FvjqRca9KM5%2F2GPk1A%3D%3D">
+                        CLICK HERE!
+                        </a>
+                    </p> 
+                </div> 
+                
+            </div>
+            <!--Second section on webpage, under intro-box, housing my table and unordered list for portfolio-->
+            <div class = "table-uList-box">
+                <table id = "graduated-schools">
+                    <tr>
+                        <th>School(s)</th>
+                        <th>Graduated?</th>
+                    </tr>
+
+                    <tr>
+                        <td>UC Irvine</td>
+                        <td>Yes, 2021</td>
+                    </tr>
+
+                    <tr>
+                        <td>Orange Coast College</td>
+                        <td>Yes, 2017</td>
+                    </tr>
+
+                    <tr>
+                        <td>Freedom High School</td>
+                        <td>Yes, 2012</td>
+                    </tr>
+                </table>
+            </div> 
+
+            <!--Unordered list of a few skills/technologies-->
+            <h2>Technologies And Skillset</h2>
+            <ul>
+                <li>C++</li>
+                <li>Python</li>
+                <li>C#</li>
+                <li>Unity</li>
+                <li>Git/GitHub</li>
+                <li>Agile/Scrum</li>
+                <li>Game Design</li>
+                <li>Visual Studio</li>
+                <li>Software Design</li>
+                <li>Algorithm Design</li>
+            </ul>
         </body>
 </html>

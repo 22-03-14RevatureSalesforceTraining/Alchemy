@@ -1,0 +1,52 @@
+/* Handles default browser values for margin & padding, here I set to 0 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+
+
+/* CSS formatting & Styling for my intro paragraph, will house profile pic, and 
+intro-paragraph -> selector class notation*/
+.intro-box {
+    max-width: 1000px;
+    height: 400px;
+    display: flex;
+}
+/* CSS formatting & Styling for my portfolio image, selector class notation */
+.portfolioImg {
+    width: 300px;
+}
+
+
+#intro-paragraph {
+    font-size: 20px;
+    text-indent: 30px;
+    margin: 40px auto 40px auto;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+/* CSS formatting & Styling for second half of webpage, will house my table and unordered list. -> selector class notation*/
+.table-uList-box {
+    max-width: 1000px;
+    margin: 20px;
+    display: flex;
+}
+
+#graduated-schools, th, td {
+    border: 1px solid;
+    width: 40%;
+    height: 60px;
+}
+
+.tech-skills {
+    margin: 40px auto 40px auto;
+    padding: 20px 50px;
+    text-align: center;
+}
