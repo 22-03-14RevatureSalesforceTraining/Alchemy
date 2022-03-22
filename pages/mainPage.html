@@ -5,6 +5,10 @@
         <meta name="author" content="Mark Snyder">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
+            body{
+                background-color: blueviolet;
+                color: white;
+            }
             #projectsList{
                 display: none;
             }
@@ -17,92 +21,117 @@
             #software{
                 display: none;
             }
+            .contactInfo table, th, td{
+                border: 1px solid;
+            }
+            .aboutMe p{
+                display: flex;
+                width: 1500px;
+            }
+            .aboutMe h1{
+                display: flex;
+                justify-content: center;
+            }
+            .flex-containter{
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-evenly;
+            }
+            .btnList{
+                padding-top: 10px;
+            }
         </style>
     </head>
     <body>
-        <div class="profilePicture">
-            <img src="../public/images/LinkedinProfilePicture.jpg" alt="Picture of Mark Snyder">
-        </div>
-        <div class="aboutMe">
-            <h1>Mark Snyder</h1>
-            <p>Hello, I'm Mark and I'm 34 year old Software Engineer. I love the challenge of making code and getting a program to do what I want it do. 
-                My hobbies are reading books, playing and making video games. My favorite stories are Sci-Fantasy, which is Science Fiction and Fantasy.
-                Currently, I'm running through the new MMORPG Lost Ark as a Paladin, but I also love the Assassin's Creed and Final Fantasy series of games.
-                Something I'd love to do in the future would be to learn how to play the Dungeons and Dragons table top game.
-            </p>
-        </div>
-        <div class="contactInfo">
-            <table>
-                <thead>
-                    <tr>
-                        <th id="emailHeader">Email</th>
-                        <td>Snyder4000@yahoo.com</td>
-                    </tr>
-                    <tr>
-                        <th id="linkedinHeader">LinkedIn</th>
-                        <td><a href="https://www.linkedin.com/in/mark-snyder-69871ba4/">Mark Snyder</a></td>
-                    </tr>
-                </thead>
-            </table>
-        </div>
-        <div class="listSwitches">
-            <button id="skills" onclick="skillsBtn()">Skill List</button>
-            <button id="projects" onclick="projectsBtn()">Project List</button>
-            <button id="jobs" onclick="jobsBtn()">Employment List</button>
-        </div>
-        <div id="skillsList">
-            <div class="btnList">
-                <button id="plsBtn" onclick="plsBtn()">Program Languages</button>
-                <button id="softwareBtn" onclick="softwareBtn()">Software Skills</button>
-                <button id="hSkillsBtn" onclick="hSkillsBtn()">Hardware Skills</button>
+        <div class="flex-containter">
+            <div class="profilePicture">
+                <img src="../public/images/LinkedinProfilePicture.jpg" alt="Picture of Mark Snyder">
             </div>
-            <ul id="languages">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Next.js</li>
-                <li>React</li>
-                <li>PHP with SQL</li>
-                <li>Python</li>
-                <li>Visual Basic</li>
-                <li>C++</li>
-                <li>C#</li>
-                <li>Java</li>
-            </ul>
-            <ul id="software">
-                <li>Microsoft Office</li>
-                <li>Active Directory</li>
-                <li>SQL Server</li>
-                <li>Windows Operating Systems</li>
-                <li>NetBeans</li>
-                <li>Expression Web</li>
-                <li>Visual Studio and VS Code</li>
-                <li>123D Design</li>
-                <li>TinkerCAD</li>
-                <li>Maya</li>
-                <li>Unity3D Engine</li>
-                <li>Unreal Engine</li>
-            </ul>
-            <ul id="hardware">
-                <li>3D Printers</li>
-                <li>CompTIA A+ Computer Repair Skills</li>
-            </ul>
+            <div class="aboutMe">
+                <h1>Mark Snyder</h1>
+                <p>Hello, I'm Mark and I'm 34 year old Software Engineer. I love the challenge of making code and getting a program to do what I want it do. 
+                    My hobbies are reading books, playing and making video games. My favorite stories are Sci-Fantasy, which is Science Fiction and Fantasy.
+                    Currently, I'm running through the new MMORPG Lost Ark as a Paladin, but I also love the Assassin's Creed and Final Fantasy series of games.
+                    Something I'd love to do in the future would be to learn how to play the Dungeons and Dragons table top game.
+                </p>
+            </div>
+            <div class="contactInfo">
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="emailHeader">Email</th>
+                            <td>Snyder4000@yahoo.com</td>
+                        </tr>
+                        <tr>
+                            <th id="linkedinHeader">LinkedIn</th>
+                            <td><a href="https://www.linkedin.com/in/mark-snyder-69871ba4/" style="color:white">Mark Snyder</a></td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="info">
+                <div class="listSwitches">
+                    <button id="skills" onclick="skillsBtn()">Skill List</button>
+                    <button id="projects" onclick="projectsBtn()">Project List</button>
+                    <button id="jobs" onclick="jobsBtn()">Employment List</button>
+                </div>
+                <div id="skillsList">
+                    <div class="btnList">
+                        <button id="plsBtn" onclick="plsBtn()">Program Languages</button>
+                        <button id="softwareBtn" onclick="softwareBtn()">Software Skills</button>
+                        <button id="hSkillsBtn" onclick="hSkillsBtn()">Hardware Skills</button>
+                    </div>
+                    <ul id="languages">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Next.js</li>
+                        <li>React</li>
+                        <li>PHP with SQL</li>
+                        <li>Python</li>
+                        <li>Visual Basic</li>
+                        <li>C++</li>
+                        <li>C#</li>
+                        <li>Java</li>
+                    </ul>
+                    <ul id="software">
+                        <li>Microsoft Office</li>
+                        <li>Active Directory</li>
+                        <li>SQL Server</li>
+                        <li>Windows Operating Systems</li>
+                        <li>NetBeans</li>
+                        <li>Expression Web</li>
+                        <li>Visual Studio and VS Code</li>
+                        <li>123D Design</li>
+                        <li>TinkerCAD</li>
+                        <li>Maya</li>
+                        <li>Unity3D Engine</li>
+                        <li>Unreal Engine</li>
+                    </ul>
+                    <ul id="hardware">
+                        <li>3D Printers</li>
+                        <li>CompTIA A+ Computer Repair Skills</li>
+                    </ul>
+                </div>
+                <div id="projectsList">
+                    <ul>
+                        <li><a href="./projectsPage.html">VR Roleplaying Game Concept Game Project</a></li>
+                        <li><a href="./projectsPage.html">2042 Game Project</a></li>
+                        <li><a href="./projectsPage.html">One Night on Fear Street Game Project</a></li>
+                        <li><a href="./projectsPage.html">Elemental Spheres Game Project</a></li>
+                    </ul>
+                </div>
+                <div id="previousJobs">
+                    <ul>
+                        <li>Revature: March, 2022 - Present</li>
+                        <li>Sodexo: August, 2016 - August, 2020</li>
+                        <li>Wal-Mart: October, 2012 - Novemember, 2015</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div id="projectsList">
-            <ul>
-                <li><a href="./projectsPage.html">VR Roleplaying Game Concept Game Project</a></li>
-                <li><a href="./projectsPage.html">2042 Game Project</a></li>
-                <li><a href="./projectsPage.html">One Night on Fear Street Game Project</a></li>
-                <li><a href="./projectsPage.html">Elemental Spheres Game Project</a></li>
-            </ul>
-        </div>
-        <div id="previousJobs">
-            <ul>
-                <li>Revature: March, 2022 - Present</li>
-                <li>Sodexo: August, 2016 - August, 2020</li>
-                <li>Wal-Mart: October, 2012 - Novemember, 2015</li>
-            </ul>
-        </div>
+        <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+        <div id="player"></div>
         <script type="text/javascript">
             var isSkills = true;
             var isProject = false;
@@ -110,6 +139,12 @@
             var isLang = true;
             var isSoftware = false;
             var isHardware = false;
+            document.getElementById('skills').addEventListener('mouseover', skillsBtn);
+            document.getElementById('projects').addEventListener('mouseover', projectsBtn);
+            document.getElementById('jobs').addEventListener('mouseover', jobsBtn);
+            document.getElementById('plsBtn').addEventListener('mouseover', plsBtn);
+            document.getElementById('softwareBtn').addEventListener('mouseover', softwareBtn);
+            document.getElementById('hSkillsBtn').addEventListener('mouseover', hSkillsBtn);
             function skillsBtn(){
                 console.log("Skills button pressed");
                 if(!isSkills){
@@ -172,6 +207,49 @@
                     document.getElementById('languages').style.display = "none";
                     document.getElementById('software').style.display = "none";
                 }
+            }
+            // 2. This code loads the IFrame Player API code asynchronously.
+            var tag = document.createElement('script');
+
+            tag.src = "https://www.youtube.com/iframe_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+            // 3. This function creates an <iframe> (and YouTube player)
+            //    after the API code downloads. https://youtu.be/ERgrFVhL-n4
+            var player;
+            function onYouTubeIframeAPIReady() {
+                player = new YT.Player('player', {
+                height: '390',
+                width: '640',
+                videoId: 'ERgrFVhL-n4',
+                playerVars: {
+                    'playsinline': 1
+                },
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange
+                }
+                });
+            }
+
+            // 4. The API will call this function when the video player is ready.
+            function onPlayerReady(event) {
+                event.target.playVideo();
+            }
+
+            // 5. The API calls this function when the player's state changes.
+            //    The function indicates that when playing a video (state=1),
+            //    the player should play for six seconds and then stop.
+            var done = false;
+            function onPlayerStateChange(event) {
+                if (event.data == YT.PlayerState.PLAYING && !done) {
+                setTimeout(stopVideo, 6000);
+                done = true;
+                }
+            }
+            function stopVideo() {
+                player.stopVideo();
             }
         </script>
     </body>
