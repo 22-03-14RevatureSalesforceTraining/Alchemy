@@ -1,14 +1,14 @@
-body{
- margin: 0;   
+body {
+    margin: 0;
 }
 
-.parallax{
+.parallax {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 
-.background-image-properties{
+.background-image-properties {
     background-image: url("../Images/catBackground.jpg");
 
     top: 0;
@@ -19,33 +19,40 @@ body{
     z-index: -1;
 }
 
-.title-container{
+.title-container {
     min-width: 100%;
     min-height: 800px;
 
     display: flex;
     flex-direction: column;
-    
+
     justify-content: center;
     align-items: center;
 }
 
-.title-lettering{
+.title-lettering {
     font-size: 100px;
     color: #fff;
 
 }
 
-.subtitle{
+.subtitle {
     font-size: 50px;
     color: #fff;
 }
 
-.tcontent{
+.tcontent {
     min-height: 1000px;
 }
 
-.btn{
+#catVideo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.btn {
     background-color: rgb(197, 94, 94);
     padding: 20px 40px;
     margin: 10% 0 0 0;
@@ -54,7 +61,7 @@ body{
     color: white;
 }
 
-.pricing{
+.pricing {
     margin-top: 5%;
     display: flex;
     flex-direction: row;
@@ -63,14 +70,14 @@ body{
 }
 
 
-.pricing-squares{
+.pricing-squares {
     border: 1px solid;
     padding: 30px;
     margin: 5%;
 
 }
 
-.footer-icons{
+.footer-icons {
     min-height: 500px;
     min-width: 100%;
     display: flex;
@@ -79,33 +86,43 @@ body{
     flex-direction: row;
 
 }
-.ficon{
+
+.ficon {
     margin: 20px;
 }
 
-table, td, th{
+table,
+td,
+th {
     border-collapse: collapse;
     border: 1px solid;
 }
 
-table{
+table {
     margin-top: 8%;
 }
-td{
+
+td {
 
     font-size: 50px;
+    text-align: center;
 }
-th{
+
+th {
     font-size: 40px;
 }
 
-ul{
+ul {
     list-style-type: circle;
 }
 
 
-#content-section{
+#content-section {
     border-top: 3px solid;
-    background-color: #fff;
-    
+    background-color: rgb(199, 133, 133);
+
+}
+
+#footer {
+    background-color: rgb(235, 164, 106);
 }

@@ -1,77 +1,86 @@
 <html>
-    <head>
-        <meta name = "author" content = "Alfred Do">
-        <meta name = "file_name" content = "Project0">
-        <meta name = "created_date" content = "3/17/22">
-        <meta name = "last_updated" content = "3/21/22">
-        <link rel="stylesheet" href="stylesheet\project0.css">
-        <link rel="script" href="javascript\project0.js">
-        <script src="https://kit.fontawesome.com/5797d144b6.js" crossorigin="anonymous"></script>
 
-    </head>
-    <body>
-        <div class = "title-section background-image-properties parallax">
-            <div class = "title-container" >
-                
-                <span class = "title-lettering"><i class="fa-solid fa-paw"></i>Kinder</span>
-                <span class = "subtitle"><i>Tinder, but for kitties</i></span>
-                <button type = "button" class = "btn">Create Account</button>
-            </div>
+<head>
+    <meta name="author" content="Alfred Do">
+    <meta name="file_name" content="Project0">
+    <meta name="created_date" content="3/17/22">
+    <meta name="last_updated" content="3/21/22">
+    <link rel="stylesheet" href="stylesheet/project0.css">
+    <script type="text/javascript" src="javascript/project0.js"></script>
+    <script type="text/javascript" src="javascript/youtube.js"></script>
+    <script src="https://kit.fontawesome.com/5797d144b6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="title-section background-image-properties parallax">
+        <div class="title-container">
+
+            <span class="title-lettering" id="test"><i class="fa-solid fa-paw"></i>Kinder</span>
+            <span class="subtitle"><i>Tinder, but for kitties</i></span>
+            <button type="button" class="btn">Create Account</button>
         </div>
-        
-        <section id = "content-section">
-            <div class = "tcontent">
-                <table class = "table-of-confessions">
-                    <tr>
-                        <th>Misty, cat customer</th> 
-                        <th>Gordon, cat owner</th>
-                        <th>Buttons</th>                            
-                    </tr>
-                    <tr>
-                        <td>"I found the mate of my life!"</td>
-                        <td>"I used to be constantly bothered by my cat, but now he's just enamored with his girlfriend!"</td>
-                        <td>"Meow Meow Meow"</td>
-                    </tr>
-                </table>
-                <div class = "pricing">
-                    <div class = "pricing-squares">
-                        FREE
-                        <div>Free to join! We offer: </div>
-                        <ul>
-                            <li>Match Making</li>
-                            <li>Profile creation</li>
-                            <li>Swiping</li>
-                        </ul>
-                    </div>
-                    <div class = "pricing-squares">
-                        VIP
-                        <div>5.99 monthly subscription</div>
-                        <ul>
-                            <li>Super Likes</li>
-                            <li>Boost</li>
-                            <li>Top picks</li>
-                        </ul>
-                    </div>
-                    <div class = "pricing-squares">
-                        VIP+
-                        <div>10.99 monthly subscription</div>
-                        <ul>
-                            <li>Read Receipts</li>
-                            <li>Likes you</li>
-                            <li>Message before you match</li>
-                        </ul>
-                    </div>
+    </div>
+
+    <section id="content-section">
+        <div class="tcontent">
+            <div id="catVideo"></div>
+            <table class="table-of-confessions">
+                <tr>
+                    <th>Misty, cat customer</th>
+                    <th>Gordon, cat owner</th>
+                    <th>Buttons</th>
+                </tr>
+                <tr>
+                    <td>"I found the mate of my life!"</td>
+                    <td>"I used to be constantly bothered by my cat, but now he's just enamored with his girlfriend!"
+                    </td>
+                    <td>"Meow Meow Meow"</td>
+                </tr>
+            </table>
+            <div class="pricing">
+                <div class="pricing-squares">
+                    <strong>FREE</strong>
+                    <div>Free to join! We offer: </div>
+                    <ul>
+                        <li>Match Making</li>
+                        <li>Profile creation</li>
+                        <li>Swiping</li>
+                    </ul>
+                </div>
+                <div class="pricing-squares">
+                    <strong>VIP</strong>
+                    <div>5.99 monthly subscription</div>
+                    <ul>
+                        <li>Super Likes</li>
+                        <li>Boost</li>
+                        <li>Top picks</li>
+                    </ul>
+                </div>
+                <div class="pricing-squares">
+                    <strong>VIP+</strong>
+                    <div>10.99 monthly subscription</div>
+                    <ul>
+                        <li>Read Receipts</li>
+                        <li>Likes you</li>
+                        <li>Message before you match</li>
+                    </ul>
                 </div>
             </div>
+        </div>
 
-            
-        </section>
-        <section id = "footer"> 
-            <div class = "footer-icons">
-                <a href="https://github.com/Alfreddosawce"><i class="fa-brands fa-github fa-2xl ficon"></i></a>
-                
-                <i class="fa-brands fa-google-play fa-2xl"></i>
-            </div>
-        </section>
-    </body>
+
+    </section>
+    <section id="footer">
+        <div class="footer-icons">
+            <a href="https://github.com/Alfreddosawce"><i class="fa-brands fa-github fa-2xl ficon"></i></a>
+
+            <i class="fa-brands fa-google-play fa-2xl"></i>
+        </div>
+    </section>
+    <script>
+        document.getElementById("test").addEventListener("click", myfunc);
+    </script>
+</body>
+
 </html>
