@@ -10,17 +10,11 @@
 * **Plans for today:** Flow trailhead, reviewing, and project 1.
 * **Roadblocks:** N/A
 
-# 3/29/2022
-**Nam Phan**
-* **What you did last:** 
-* **Plans for today:**
-* **Roadblocks:** 
-
 # 3/30/2022
 **Nam Phan**
-* **What you did last:**
-* **Plans for today:**
-* **Roadblocks:** 
+* **What you did last:** ERD and a badgge  Roadblocks: N/A
+* **Plans for today:** Project 1 and study, if possible, badges.
+* **Roadblocks:** N/A
 
 # 3/31/2022
 **Nam Phan**
