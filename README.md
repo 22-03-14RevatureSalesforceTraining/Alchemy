@@ -10,3 +10,5 @@ Chris Pavur What you did last: Did quizzes, documentation on Salesforce website.
 ## 3/30/2022
 Chris Pavur What you did last: Did badges, completed ERD, fixed up notes. Plans for today: Take what they said in QC and expand on it to work on Project 1. Roadblocks: N/A
 
+## 3/31/2022
+Chris Pavur What you did last: Redid ERD, trail head badges. Looked over videos for project 1. Plans for today: Start project 1. Roadblocks: N/A
