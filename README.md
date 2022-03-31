@@ -14,8 +14,22 @@ Roadblocks: N/A
 3/30/2022
 ----------------------
 Daniel Alcala
+
 What you did last: Quizzes done, ERD done, another section of the trailhead for the badges.
 
 Plans for today: Focus more on badges.
 
 Roadblocks: How do we start the project? How do we show off Project 1?
+
+3/31/2022
+----------------------
+Daniel Alcala
+
+What you did last: Set up organization on project 1, and caught up on trailheads.
+
+Plans for today: Start setting up stuff for project 1, including data security.
+
+Roadblocks: N/A
+
+4/1/2022
+----------------------
