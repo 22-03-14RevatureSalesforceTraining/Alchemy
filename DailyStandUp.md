@@ -18,15 +18,15 @@
 
 # 3/31/2022
 **Nam Phan**
-* **What you did last:**
-* **Plans for today:** 
-* **Roadblocks:** 
+* **What you did last:** Looked over notes, looked over stuff for P1
+* **Plans for today:** Plans for today: Start P1, another trailhead badge, and more studying
+* **Roadblocks:** N/A
 
 # 4/01/2022
 **Nam Phan**
-* **What you did last:** 
-* **Plans for today:**
-* **Roadblocks:** 
+* **What you did last:** Worked on badge and project 1
+* **Plans for today:** plans for today: got one batch to finish, study
+* **Roadblocks:** N/A
 
 # 4/04/2022
 **Nam Phan**
