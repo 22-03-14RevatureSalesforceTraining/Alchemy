@@ -12,3 +12,6 @@ Chris Pavur What you did last: Did badges, completed ERD, fixed up notes. Plans 
 
 ## 3/31/2022
 Chris Pavur What you did last: Redid ERD, trail head badges. Looked over videos for project 1. Plans for today: Start project 1. Roadblocks: N/A
+
+## 4/1/2022
+Chris Pavur What you did last: More trailheads, went over some of the notes from yesterday. Plans for today: Finish the rest of the trailhead and work on project 1. Roadblocks: N/A
