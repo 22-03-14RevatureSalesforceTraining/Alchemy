@@ -33,3 +33,23 @@ Roadblocks: N/A
 
 4/1/2022
 ----------------------
+Daniel Alcala
+
+What you did last: Finished trailhead, made account for project 1.
+
+Plans for today: Keep going with project 1, do any trailheads
+
+Roadblocks: Still feel like not doing everything correctly.
+
+4/4/2022
+--------------------------
+Daniel Alcala
+
+What you did last: Worked on P1, studied for QC
+
+Plans for today: QC, Quizies, P1
+
+Roadblocks: no
+
+4/5/2022
+----------------------------
