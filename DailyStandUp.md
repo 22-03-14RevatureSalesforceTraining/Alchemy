@@ -19,28 +19,34 @@
 # 3/31/2022
 **Nam Phan**
 * **What you did last:** Looked over notes, looked over stuff for P1
-* **Plans for today:** Plans for today: Start P1, another trailhead badge, and more studying
+* **Plans for today:** Start P1, another trailhead badge, and more studying
 * **Roadblocks:** N/A
 
 # 4/01/2022
 **Nam Phan**
 * **What you did last:** Worked on badge and project 1
-* **Plans for today:** plans for today: got one batch to finish, study
+* **Plans for today:** got one badge to finish, study
 * **Roadblocks:** N/A
 
 # 4/04/2022
 **Nam Phan**
-* **What you did last:** 
-* **Plans for today:**
-* **Roadblocks:** 
+* **What you did last:** Studied for QC, met with group members for study worked on P1 
+* **Plans for today:** doing quizzes and working on P1, studying for cert exam
+* **Roadblocks:** no road blocks
 
 # 4/05/2022
+**Nam Phan**
+* **What you did last:** worked on P1
+* **Plans for today:** Plans for today: finish P1 and study
+* **Roadblocks:** no
+
+# 4/06/2022
 **Nam Phan**
 * **What you did last:** 
 * **Plans for today:**
 * **Roadblocks:** 
 
-# 4/06/2022
+# 4/07/2022
 **Nam Phan**
 * **What you did last:** 
 * **Plans for today:**
