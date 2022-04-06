@@ -60,3 +60,13 @@ What you did last: worked on P1.
 Plans for today: Finish P1, quizzes
 
 Roadblocks: no
+
+4/6/2022
+----------------------------
+Daniel Alcala
+
+What you did last: worked on P1
+
+Plans for today: present, quizzes, study for cert 
+
+Roadblocks: no road blocks
