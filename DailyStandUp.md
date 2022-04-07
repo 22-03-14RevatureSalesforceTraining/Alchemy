@@ -42,9 +42,9 @@
 
 # 4/06/2022
 **Nam Phan**
-* **What you did last:** 
-* **Plans for today:**
-* **Roadblocks:** 
+* **What you did last:** worked on P1.
+* **Plans for today:** study for the cert exam, quizzes, are flows presentation.
+* **Roadblocks:** none
 
 # 4/07/2022
 **Nam Phan**
