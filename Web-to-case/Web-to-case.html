@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="Stylesheet/styles.css">
+    <meta charset="utf-8">
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+    <title></title>
+  </head>
+  <body>
+<h1>Clothes2Sell Web-to-Case</h1>
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+
+<input type=hidden name="orgid" value="00D8c00000850AT">
+<input type=hidden name="retURL" value="">
+
+
+<label for="name">Contact Name</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+
+<label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+
+<label for="description">Description</label><textarea name="description"></textarea><br>
+
+<label for="reason">Case Reason</label><select  id="reason" name="reason"><option value="">--None--</option><option value="Installation">Installation</option>
+<option value="Equipment Complexity">Equipment Complexity</option>
+<option value="Performance">Performance</option>
+<option value="Breakdown">Breakdown</option>
+<option value="Equipment Design">Equipment Design</option>
+<option value="Feedback">Feedback</option>
+<option value="Other">Other</option>
+</select><br>
+
+Product:<select  id="00N8c00000cGimn" name="00N8c00000cGimn" title="Product"><option value="">--None--</option><option value="GC1040">GC1040</option>
+<option value="GC1060">GC1060</option>
+<option value="GC3020">GC3020</option>
+<option value="GC3040">GC3040</option>
+<option value="GC3060">GC3060</option>
+<option value="GC5020">GC5020</option>
+<option value="GC5040">GC5040</option>
+<option value="GC5060">GC5060</option>
+<option value="GC1020">GC1020</option>
+</select><br>
+
+<input type="submit" name="submit">
+
+</form>
+
+  </body>
+</html>
