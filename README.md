@@ -2,7 +2,7 @@
 An ecommerce game distributor
 
 ## ERD
-![](.\ERDv1.JPG)
+![image](.\ERDv1.JPG)
 
 ## Tech Stack
 Apex, Salesforce
