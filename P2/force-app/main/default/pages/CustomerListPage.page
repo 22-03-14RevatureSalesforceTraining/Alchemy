@@ -1,0 +1,16 @@
+<apex:page controller="CustomerCustController">
+    <apex:form >
+        <apex:pageBlock title="MIST Customers">
+            <apex:pageBlockTable value="{!custAccs}" var="ca">
+                    <apex:column value="{!ca.Name}"/>
+                    <apex:column value="{!ca.Email__c}"/>
+                    <apex:column value="{!ca.CustomerStatusType}"/>
+            </apex:pageBlockTable>
+           <!-- <apex:panelGrid columns="2">
+                <apex:commandButton value="Previous" action="{!previous}"/>
+                <apex:commandButton value="Next" action="{!next}"/>
+            </apex:panelGrid>
+            -->
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,41 @@
+<apex:page controller="OpportunitiesListWithController">
+    <apex:form >
+        <apex:pageBlock title="Opportunities List" id="opportunities_list">
+            <!-- Opportunities List -->
+        <apex:pageBlockTable value="{! opportunities }" var="opp">
+            <apex:column value="{! opp.Name }">
+                <apex:facet name="header">
+                    <apex:commandLink action="{! sortByName }"
+                        reRender="opportunities_list">Name
+                    </apex:commandLink>
+                </apex:facet>
+            </apex:column>
+            <apex:column value="{! opp.AccountId }"/>
+            <apex:column value="{! opp.OwnerId }">
+                <apex:facet name="header">
+                    <apex:commandLink action="{! sortByOwner }"
+                        reRender="opportunities_list">Owner
+                    </apex:commandLink>
+                </apex:facet>
+            </apex:column>
+            <apex:column value="{! opp.Amount }"/>
+            <apex:column value="{! opp.ExpectedRevenue }">
+                <apex:facet name="header">
+                    <apex:commandLink action="{! sortByRevenue }"
+                        reRender="opportunities_list">Revenue
+                    </apex:commandLink>
+                </apex:facet>
+            </apex:column>
+            <apex:column value="{! opp.CloseDate }"/>
+        </apex:pageBlockTable>
+        </apex:pageBlock>
+        
+        <apex:pageBlock title="Related Accounts List" id="accounts_list">
+            <!-- Related Accounts List -->
+        <apex:pageBlockTable value="{! accounts }" var="acc">
+            <apex:column value="{! acc.Name }"/>
+            <apex:column value="{! acc.AccountNumber }"/>
+        </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

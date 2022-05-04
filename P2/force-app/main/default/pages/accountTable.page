@@ -1,0 +1,15 @@
+<apex:page Controller="accController">
+    <head>
+    </head>
+    <body>
+        <apex:form >
+            <apex:pageBlock title="companies">
+                <apex:pageBlockTable value="{!Accounts}" var="acc">
+                    <apex:column value="{!acc.Name}"/>
+            		<apex:column value="{!acc.Phone}"/>
+                    <apex:column value="{!acc.AnnualRevenue}"/>
+                </apex:pageBlockTable>
+            </apex:pageBlock>
+        </apex:form>
+    </body>  
+</apex:page>

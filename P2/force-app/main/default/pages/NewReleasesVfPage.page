@@ -1,0 +1,14 @@
+<apex:page controller="GameReleaseByDate">
+	<apex:form >
+        <apex:pageBlock title="New Game Releases">
+        <apex:pageBlockSection title="Welcome to some of Mist's newest releases page"></apex:pageBlockSection>
+            <apex:pageBlockTable id="Table1" value="{!prodsList}" var="p">
+                <apex:column value="{!p.Name}"/>
+                <apex:column value="{!p.ReleaseDate__c}"/>
+                <apex:column value="{!p.Thumbs_Up__c}"/>
+            </apex:pageBlockTable>
+            <apex:commandButton value="Pick Newest Releases" action="{!displayByDate}" rerender="Table1"
+                            styleClass="buttonStyle" style="background:green"/>   
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
