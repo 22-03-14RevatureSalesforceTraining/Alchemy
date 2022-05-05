@@ -1,5 +1,5 @@
 # Project 2
-This project is an ecommerce game distributor called Mist. We work with Independent develoeprs, publishers, and studios to bring games to everyone!
+This project is an ecommerce game distributor called Mist. We work with Independent developers, publishers, and studios to bring games to everyone!
 
 # ERD
 ![image](ERDv1.JPG)
