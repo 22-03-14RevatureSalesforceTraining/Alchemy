@@ -1,13 +1,42 @@
-# Alchemy
+#Alchemy
 -----------------
-# Project 1
+#Project 1
 -------------------
 Associates created a company of their own design, and then handled the administration side of the business.
 
 A game streaming library of most popular platforms for every type of gamer - GameDA Experience.
 
-# ERD
+#ERD
 --------------------
+![image](https://user-images.githubusercontent.com/47342981/167022483-d5cac201-3ab5-4de4-9d59-0095b633bd3f.png)
+
+#Technology Stack
+--------------------
+- Draw.io
+- Salesforce Trailhead Playground
+- Git
+- Github
+- Lightning Application Builder (Salesforce CRM)
+
+#Features
+-------------------
+- GameDA Experience Application.
+- Security Features: Organization, Object, Record, and Field Level.
+- Configured Sales Cloud and Service cloud hosted inside GameDA Experience Application.
+- Favorites list for active subscribers.
+- Updated library of streamable games from platforms: Playstation, Nintendo, and Microsoft (Xbox).
+- Utilized Screen, After-Save, Before-Save, and Autolaunched flows for application productivity for users and active subscribers.
+
+TO-DO:
+- Add more active users.
+- More UI work for productivity purposes relating to the GameDA Experience Application.
+- Include more game titles for each platform.
+- Utilize more/advanced flows inside application.
+
+#Contributors
+------------------
+-Daniel Alcala (Author)
+-Revature Training
 
 
 #Daniel's Project 1 Stand-up Notes
