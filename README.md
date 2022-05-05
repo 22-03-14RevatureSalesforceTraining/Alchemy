@@ -41,9 +41,9 @@ TO-DO:
 
 ## 3/28/2022
 **Chris Pavur**
--**What you did last:** Worked on trailhead badges, going over notes for QC. Met with teammates for QC studying. 
--**Plans for today:** Get through QC, getting back through the older trailhead. 
--**Roadblocks:** N/A
+- **What you did last:** Worked on trailhead badges, going over notes for QC. Met with teammates for QC studying. 
+- **Plans for today:** Get through QC, getting back through the older trailhead. 
+- **Roadblocks:** N/A
 
 ## 3/29/2022
 **Chris Pavur**
