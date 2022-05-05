@@ -27,7 +27,7 @@ Project is based off of an event planning company focusing on national-level con
 - Process automation utilizing Screen flows, Before-save, After-save, and Autolaunched flows 
 
 TO-DO:
-- Create more campaigns, opportunities, and larger hierarchy to add more complexity
+- Create more campaigns, opportunities, and larger role hierarchy to add more complexity
 - Add more products/pricebooks to create more buying options
 - Utilize Salesforce Knowledge features as well as Experience Cloud
 
