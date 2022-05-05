@@ -35,8 +35,8 @@ TO-DO:
 
 #Contributors
 ------------------
--Daniel Alcala (Author)
--Revature Training
+- Daniel Alcala (Author)
+- Revature Training
 
 
 #Daniel's Project 1 Stand-up Notes
