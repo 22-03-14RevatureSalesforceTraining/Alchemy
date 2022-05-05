@@ -1,4 +1,15 @@
 # Alchemy
+-----------------
+# Project 1
+-------------------
+Associates created a company of their own design, and then handled the administration side of the business.
+
+A game streaming library of most popular platforms for every type of gamer - GameDA Experience.
+
+# ERD
+--------------------
+
+
 #Daniel's Project 1 Stand-up Notes
 --------------------------------------
 3/29/2022
