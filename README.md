@@ -10,7 +10,6 @@ This project is an ecommerce game distributor called Mist. We work with Independ
 * Salesforce Trailhead Playground
 
 # Features
-List of features ready and TODOs for future development
 * Mist Store App
 * Displayed Games(Products), Studios, and Publishers available to our store.
 * Organization, Object, record, and field level security.
