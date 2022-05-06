@@ -4,7 +4,7 @@ This is a ecommerce salesforce org that was created to display personal competen
 #ERD
 ![image](ERD/P1ERD.png)
 
-#Technology Stack
+# Technology Stack
 * Salesforce Trailhead Playground
 * Declarative Salesforce configurations
 * Sales cloud and Service cloud
