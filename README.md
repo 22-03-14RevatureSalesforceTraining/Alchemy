@@ -12,9 +12,9 @@ This project is an ecommerce game distributor called Mist. We work with Independ
 # Features
 * Mist Store App
 * Displayed Games(Products), Studios, and Publishers available to our store.
-* Organization, Object, record, and field level security.
-* A Games Wishlist 
-* Visualforce pages to showcase Games, Publishers, Studios with, each with a featured list.
+* Organization, object, record, and field level security.
+* A games wishlist 
+* Visualforce pages to showcase games, publishers, studios, each with a featured list.
 * Flows and triggers that increased productivity by creating wishlist items, generating records, creating tasks, and sending emails to notify when a high piority case is recived.
 
 To-do list:
