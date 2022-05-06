@@ -2,7 +2,7 @@
 This is a ecommerce salesforce org that was created to display personal competency of salesforce
 
 #ERD
-![image](ERD.jpg)
+![image](ERD/P1ERD.png)
 
 #Technology Stack
 * Salesforce Trailhead Playground
