@@ -1,8 +1,8 @@
 # Snyder Studios
-Here goes your awesome project description!
+Snyder Studios is video game and movie special effects company that is using Salesforce to track potential clients and ideas for projects, as well as tracking progress of current projects.
 
 # ERD
-![image](public/images/ERD/P1_ERD.PNG)
+![image](P1_ERD.png)
 
 # Technologies Used
 * Salesforce Trailhead Playground
