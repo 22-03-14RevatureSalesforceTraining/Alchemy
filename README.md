@@ -18,7 +18,7 @@ This project is an ecommerce game distributor called Mist. We work with Independ
 * Flows and triggers that increased productivity by creating wishlist items, generating records, creating tasks, and sending emails to notify when a high piority case is recived.
 
 To-do list:
-* Needs to rework the event, trigger, and flow for thumbs up notificaitons
+* Needs to rework the event, trigger, and flow for thumbs up notifications
 
 # Contributors
 
