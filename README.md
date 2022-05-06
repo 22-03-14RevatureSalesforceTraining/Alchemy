@@ -2,7 +2,7 @@
 Here goes your awesome project description!
 
 # ERD
-![image](P1_ERD.PNG)
+![image](public/images/ERD/P1_ERD.PNG)
 
 # Technologies Used
 * Salesforce Trailhead Playground
